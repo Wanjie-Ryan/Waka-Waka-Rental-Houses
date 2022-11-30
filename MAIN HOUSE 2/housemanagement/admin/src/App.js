@@ -5,7 +5,6 @@ import List from "./pages/list/List";
 import New from "./pages/new/New";
 import Single from "./pages/single/Single";
 
-hello
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { buildingInputs, userInputs } from "./formsource";
 import { AuthContext } from "./context/AuthContext";
