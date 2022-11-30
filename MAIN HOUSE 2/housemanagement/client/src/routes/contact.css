@@ -1,0 +1,296 @@
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.main-sec{
+    background:url('./assets/Apartment 3.jpg');
+    height: 100vh;
+    max-width: 100%; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+
+.about-header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #173b3f;
+    width: 100%;
+  }
+  
+.title {
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 27px;
+    color: rgb(168, 168, 129);
+    cursor: pointer;
+  
+    /* modify the transition */
+  
+    /* transition: all, 1.5s, 2ms, ease-in-out; */
+  }
+  
+.title:hover {
+    font-size: 28px;
+    color: rgb(168, 168, 135);
+  }
+  
+.list {
+    display: flex;
+    /* margin-left:47px;
+      margin-top: 20px;
+      font-size: 22px;
+      cursor:pointer;
+      list-style-type: none;
+      margin-right:20px;
+      font-weight: 900;
+       */
+  }
+  
+.list a {
+    color: black;
+    text-decoration: none;
+  }
+  
+li {
+    /* display: flex;
+      flex-direction: row;  */
+    margin-left: 47px;
+    margin-top: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-weight: bold;
+    animation: links 3s ease-in-out 0.5ms infinite;
+    transition: all 1.5s ease-in-out 0.5ms;
+  }
+  
+li:hover {
+    font-size: 24px;
+  }
+  
+@keyframes links {
+    from {
+      color: white;
+    }
+    to {
+      color: gold;
+    }
+  }
+
+.experience {
+    padding-top: 100px;
+
+}
+
+.improve p{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-top: 20px;
+    /* display: flex;
+    align-items: center;
+    height: 100%;   */
+}
+
+.plea{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    color:white;
+    font-size: 20px;
+    font-weight: 900;
+    border:4px dashed rgb(231, 223, 223);
+    border-radius:10px;
+    width:400px;
+    margin:100px auto 0 auto;
+}
+
+.plea .plea-fname{
+    margin-bottom: 40px;
+    
+}
+
+.plea-fname .fName{
+    display:block;
+}
+
+.plea-fname .inputarea{
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:all 0.5s ease-in-out 0.5ms;
+}
+
+.plea-fname .inputarea::placeholder{
+    font-weight: bold;
+    font-size: 17px;
+    padding:15px;
+}
+
+.plea-fname .inputarea:focus{
+    width:360px;
+
+}
+
+.sub{
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.sub button{
+    width:60px;
+    height:40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition:all 0.5s ease-in-out 0.3ms;
+}
+
+.sub button:hover{
+    /* width:62px;
+    height:42px; */
+    font-size:22px;
+    color:white;
+    background-color: black;
+}
+
+/* .sub button:focus{
+    width:62px;
+    height:42px;
+} */
+
+.map{
+    height:60vh;
+    width:70%;
+    margin:0 auto;
+    position:relative;
+    margin-top: 100px;
+    padding:30px 0;
+    /* margin-bottom:10px; */
+}
+
+.map p{
+    text-align:center;
+    font-weight:bold;
+}
+
+.map iframe{
+    position:absolute;
+    width:100%;
+    height:100%;
+    margin-top: 15px;
+    border-radius: 10px;
+    /* margin-bottom: 80px; */
+}
+
+
+.sign-o{
+    background-color:  #173B3F;
+    /* margin-top:60px; */
+    width:100%;
+    color:white;
+    margin-top: 150px;
+}
+
+.off{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    cursor:pointer;
+}
+
+.Thanks a{
+    color:white;
+    text-decoration:none;
+}
+
+.fw{
+    font-weight: 800;
+}
+
+/* 
+ TO REVISIT */
+.fw p:hover{
+    text-decoration: underline;
+}
+
+
+.tt{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.off .reach{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.inner-off a {
+    color:white;
+}
+
+.links a{
+    color:white;
+    text-decoration:none;
+}
+
+.off .fa{
+    margin-top: 20px;
+    margin-left: 20px;
+    height:30px;
+    cursor:pointer;
+    transition: all 0.5s ease-in-out 0.4ms;
+}
+
+.off .fa:hover{
+
+    height: 33px;
+    color:black;
+}
+
+.whatsapp{
+    cursor: pointer;
+    border-radius: 10px;
+    padding:10px;
+    transition:all 0.7s ease-in-out 0.4ms;
+}
+
+.whatsapp .fw{
+   width:50px;
+   height: 30px; 
+}
+
+.whatsapp p{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.whatsapp:hover{
+    color:white;
+    background-color: #173B3F;
+}
+
+
+
+

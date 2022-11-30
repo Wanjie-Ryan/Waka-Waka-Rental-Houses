@@ -1,0 +1,147 @@
+main .i-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+main .i-row .col-left {
+  width: 60%;
+  /* height:60vh; */
+}
+main .i-row .col-left img {
+  width: 100%;
+  border-radius: 10px;
+  height: 100vh;
+}
+main .i-row .col-right {
+  width: 40%;
+}
+main .i-row .col-right .property-features {
+  border-radius: 10px;
+  background: #fff;
+  padding: 0 13px;
+}
+main .i-row .col-right .property-features .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+main .i-row .col-right .property-features .features .feature {
+  padding: 10px 0;
+}
+main .i-row .col-right .property-features .features .feature.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+main .i-row .col-right .property-features .features .feature:not(:last-child) {
+  border-bottom: 1px solid #bbb;
+}
+main .i-row .col-right .property-features .features .feature h1 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+main .i-row .col-right .property-features .features .feature .flex,
+main .i-row .col-right .property-features .features .feature .multi-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+main
+  .i-row
+  .col-right
+  .property-features
+  .features
+  .feature
+  .flex
+  .facility-value,
+main
+  .i-row
+  .col-right
+  .property-features
+  .features
+  .feature
+  .flex
+  .facility-name,
+main
+  .i-row
+  .col-right
+  .property-features
+  .features
+  .feature
+  .multi-flex
+  .facility-value,
+main
+  .i-row
+  .col-right
+  .property-features
+  .features
+  .feature
+  .multi-flex
+  .facility-name {
+  font-size: 14px;
+  color: #333;
+  font-weight: 400;
+}
+@media (max-width: 900px) {
+  main .i-row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  main .i-row .col-left {
+    width: 100%;
+  }
+  main .i-row .col-left img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  main .i-row .col-right {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  main .i-row .col-left img {
+    max-height: 50vh;
+    border-radius: 10px;
+  }
+}
+
+.property-features .features{
+  color:black ! important;
+}
+
+.feature-contact{
+  text-align: center;
+  margin-top: 70px;
+  
+  
+}
+
+.feature-contact a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 21px;
+  /* color:black; */
+}
+
+.flex .facility-name{
+  font-size: 20px;
+  font-weight: 900;
+}
